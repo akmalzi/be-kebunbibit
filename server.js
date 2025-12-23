@@ -53,4 +53,4 @@ if (process.env.NODE_ENV !== "production") {
   });
 }
 // WAJIB: Export app supaya Vercel bisa baca
-module.exports = app;
+export default app;
