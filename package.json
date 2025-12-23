@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --env-file=.env.dev --watch-path=./src --watch server.js",
-    "start": "node --env-file=.env server.js",
+    "dev": "node --env-file=.env.dev --watch-path=./src --watch index.js",
+    "start": "node --env-file=.env index.js",
     "build": "echo 'Build backend...'"
   },
   "keywords": [],
