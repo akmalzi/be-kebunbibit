@@ -1,0 +1,20 @@
+
+# ENV files
+.env
+.env.dev
+
+# Node modules
+node_modules
+
+#Package-lock.json
+package-lock.json
+
+#Logs
+*.log
+
+#SQL files
+database
+*.sql
+
+#Misc
+public/images/user/*
